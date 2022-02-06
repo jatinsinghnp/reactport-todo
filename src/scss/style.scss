@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,700;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #151515;
+  color: aliceblue;
+  font-family: "Roboto Condensed", sans-serif;
+  line-height: 2rem;
+}
+
+nav {
+  height: 10vh;
+  background: #000000fa;
+  text-align: center;
+  padding: 10px;
+  font-size: 1rem;
+  margin-bottom: 30px;
+}
+.wrapper-form {
+  width: 300px;
+  border-radius: 1rem;
+  margin: auto;
+  height: 50vh;
+  background: #f3f3f3;
+  form {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    justify-content: center;
+    input {
+      padding: 0.5rem;
+      border-radius: 1rem;
+      display: inline-block;
+      border: 1px solid black;
+    }
+    button {
+      margin-top: 20px;
+      padding: 0.5rem;
+      border-radius: 0.3rem;
+      border: none;
+      background: #f7941d;
+      color: #f3f3f3;
+      font-size: larger;
+      &:hover {
+        background: yellow;
+        cursor: pointer;
+      }
+    }
+  }
+  p {
+    color: black;
+    background: yellow;
+    padding: 10px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    button {
+      padding: 0.2rem;
+      border-radius: 1rem;
+      border: none;
+      background: #ff4800e0;
+      color: #f3f3f3;
+      &:hover {
+        color: yellow;
+        cursor: pointer;
+      }
+    }
+  }
+  hr {
+    color: #151515;
+  }
+}
